@@ -1,6 +1,8 @@
 
-using XLSX: readxlsx, sheetnames
-
+using XLSX
+using XLSX: readxlsx, sheetnames, row_number, eachrow
+using Parameters
+using Logging
 
 ############################################################
 # Input and Output Data Files
@@ -32,6 +34,9 @@ end
 function extracted_descriptions_path()
     joinpath(NICHOLS_DIR, "descriptions.tsv")
 end
+
+injestion_log_file(dir) =
+    abspath(joinpath(dir, "injestion_log.txt"))
 
 
 ############################################################
@@ -115,4 +120,98 @@ write_descriptions()
 # List sheets:
 workbook = readxlsx(NICHOLS_SPREADSHEET)
 sheetnames(workbook)
+
+# "Nichols Box 2"
+DATA_SHEET_NAME_REGEXP = r"Nichols Box (?<box_number>[0-9]+)"
+
+# What's in a sheet"
+# workbook["Nichols Box 1"]["A1:D10"]
+
+
+@with_kw mutable struct NicholsCollection
+    directory = NICHOLS_DIR
+    boxes = Vector{NicholsBox}()
+end
+
+# Each sheet that matches DATA_SHEET_NAME_REGEXP describes one box
+@with_kw mutable struct NicholsBox
+    box_number       # from sheet name
+    # first_doc_id     # infer from first row?
+    # last_doc_id      # infer from first row
+    description
+    folders = Vector{NicholsFolder}()
+end
+
+@with_kw mutable struct NicholsFolder
+    folder_number
+    description
+    documents = Vector{NicholsDocument}()
+end
+
+struct NicholsDocument
+    id
+    title
+    description
+end
+
+function injest(collection::NicholsCollection)
+    workbook = readxlsx(joinpath(collection.directory,
+                                 "Nichols Collection Contents Copy.xlsx"))
+    for sheetname in sheetnames(workbook)
+        m = match(DATA_SHEET_NAME_REGEXP, sheetname)
+        box = nothing
+        folder = nothing
+        if m != nothing    
+            box_number = m["box_number"]
+            sheet = workbook[sheetname]
+            for row in eachrow(sheet)
+                try
+                    if row.row == 1
+                        box = NicholsBox(box_number = box_number,
+                                         description = row[1])
+                        push!(collection.boxes,box)
+                    elseif box != nothing &&
+                        (m = match(r"^Folder (?<number>[0-9]+):(?<description>.*)$",
+                                   row[1])) != nothing
+                        folder = NicholsFolder(folder_number = m["number"],
+                                               description = m["description"])
+                        push!(box.folders, folder)
+                    elseif folder != nothing &&
+                        (m = match(r"^(?<docnum>[0-9]{2}-[0-9]{2}-[0-9]{3})(?<title>.*)$",
+                                   row[1])) != nothing
+                        id = m["docnum"]
+                        push!(folder.documents,
+                              NicholsDocument(id, m["title"],
+                                              get(DOCUMENT_DESCRIPTIONS, id, nothing)))
+                    else
+                        @warn("Unrecognized", sheet=sheetname, row=row.row, text=row[1])
+                    end
+                catch e
+                    @error(e, sheet=sheetname, row=row.row)
+                end
+            end
+        end
+    end
+    return collection
+end
+
+function show_counts(collection::NicholsCollection)
+    println("Boxes: $(length(collection.boxes))")
+    for box in collection.boxes
+        println("  Box $(box.box_number)")
+        for folder in box.folders
+            println("    Folder $(folder.folder_number) $(length(folder.documents)) documents, $(folder.description)")
+        end
+    end
+end
+
+NICHOLS = NicholsCollection()
+
+open(injestion_log_file(NICHOLS.directory), "w") do logio
+    with_logger(SimpleLogger(logio)) do
+        injest(NICHOLS)
+    end
+end
+
+show_counts(NICHOLS)
 

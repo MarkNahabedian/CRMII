@@ -1,0 +1,1323 @@
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 1
+│   row = 144
+│   text = Fortune - 1944 From Mary Nichols
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 1
+│   row = 145
+│   text = No Folders
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 17
+│   text = W.H Nichols, Jack Dempsey, Tod Jenney 2 8x10 prints 86-21
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 25
+│   text = (Blank Board)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 27
+│   text = Hans Mortiz Graf Von Bruhl 1760-1809 Patron of Thomas Drudge (not legible), Chamberlain's Book 339-340
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 37
+│   text = Newsletter: Tax Talk - 1951 - 86-21-201
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 68
+│   text = Magazine Compressed Air Sept. 1967 - 86-21-241
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 73
+│   text = List of Waltham Men Who Were in Revolutionary War 86-21-243
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 74
+│   text = No Folders
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 107
+│   text = W.H Nichols + Jack Dempsey 2 - 8x10 Prints 86-21
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 108
+│   text = Jack Dempsey + Victim at W.H Nichols Co 8x10 86-21 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 2
+│   row = 138
+│   text = January 1948 Belidor Agenda Book
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 2
+│   text = 86-21-603 Photograph of woerd Avenue, Boathouse
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 3
+│   text = 86-21-616 Post card of The Burgoyne Elm, Waltham
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 4
+│   text = 86-21-594 Outdoor Group Photograph of 30 men if the Rod & Gun Club
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 5
+│   text = 86-21-619 Photograph of W.H. Nichols 1898. Found on open shelf in library on 11/20/90
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 6
+│   text = 86-21-594 Outdoor Group Photograph of 30 men if the Rod& Gun club
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 7
+│   text = 86-21-599 Photograph of four place canoes on water in Worcester
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 8
+│   text = 86-21-600 Mounted photograph of man in singles canoe
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 9
+│   text = 86-21-(661) Picture postcard & mount of English seaside resort "Torquoy" mount (from which card had originally been attached) also included
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 10
+│   text = 86-21-601 Rambler Boat club photograph on water in New London, Connecticut
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 11
+│   text = 86-21-602 Undated mounted photograph of the two men in canoe
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 12
+│   text = 86-21-604 Photograph of 9 men in war canoe
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 13
+│   text = 86-21-605 Photograph of 15 members of Waltham Canoe Club and 6 canoes
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 14
+│   text = 86-21-606 Photograph of 3 canoes with 4 men in each canoe
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 15
+│   text = 86-21-608 Geo Cormier in single scoll
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 16
+│   text = 86-21-609 Mounted Photograph of H.B. Arnold in a canoe taken in 1887
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 17
+│   text = 86-21-610 Photograph of Boat House at Waltham
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 18
+│   text = 86-21-611 Mounted Photograph of War canoe with 9 aboard on giver. Cemetery in background
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 19
+│   text = 86-21-612 Mounted photograph of a canoe flotilla 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 20
+│   text = 86-21-613 Outdoor group photograph of ten men with canoe paddles, six standing and four sitting in front of a tent- men indentified on reverse
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 21
+│   text = 86-21-614 Photograph of W.H. Nichols & Mrs. Louise Nichols raising American Flag and e-Award banner.
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 22
+│   text = 86-21-617 Outdoor group photograph of 31 men and 1 woman in three rows
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 23
+│   text = 86-21-622 Photograph of Mary Nichols on Founders Day, August 7, 1969
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 24
+│   text = 86-21-624 Photograph of WHN Museum Exhibits
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 25
+│   text = 86-21-625 Portrait Photograph of WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 26
+│   text = 86-21-626 Portrait Photograph of Hart Nichols
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 27
+│   text = 86-21-627 Portrait Photograph of Arthur Nichols
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 28
+│   text = 86-21-628 Photograph of Bill Nichols Jr., Ron Lamont, and Latham Nichols 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 29
+│   text = 86-21-629 Group Photograph of seven Men showing Bill Nichols and Latham Nichols receiving a quality assurance award from Boeing Vertol.
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 30
+│   text = 86-21-630 Photograph of WHN Shop interior showing men at work on machine tools
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 31
+│   text = 86-21-632 Photograph of WHN Arthur, Mrs. WHN, Hart
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 32
+│   text = 86-21-633 Interior Photograph of WHN Shop showing met at work on machine tools
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 33
+│   text = 86-21-635 Photograph of WHN Co. Shop Interior showing men & women at work
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 34
+│   text = 86-21-636 Photograph of WHN shop interior showing and women at work on machine tools
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 35
+│   text = 86-21-637 Photograph of WHN Co. Inspection Department
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 36
+│   text = 86-21-638 Photograph of children at annual Christmas Party in canteen
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 37
+│   text = 86-21-659 (no folder) photo of ship
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 38
+│   text = 86-21-593 Group photograph of N.H. Nichols employees in 1912
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 39
+│   text = 86-21-595 Photograph of Waltham Fire Department chemical 1 engine (missing)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 40
+│   text = 86-21-597 Photograph of Waltham steam pumper in 1908
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 41
+│   text = 86-21-598 Cresent Canoe Club on river
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 42
+│   text = 86-21-607 Photography of war canoe with 9 men aboard
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 43
+│   text = 86-21-615 Photograph of derailed locomotive & passenger car Boston and Lowell Rd.
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 44
+│   text = 86-21-618 Letter regarding train wreck shown in Item 86-21-615
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 45
+│   text = 86-21-621 Mounted photograph of Norumbega tower
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 46
+│   text = 86-21-661 Annotated photocopies by Cmdr Clegg, Rn
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 3
+│   row = 47
+│   text = 86-21-662 Devonport-Plymouth Nautical Chart
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 48
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 49
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 50
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 51
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 52
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 53
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 54
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 55
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 56
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 57
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 58
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 59
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 60
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 61
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 62
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 63
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 64
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 65
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 66
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 67
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 68
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 69
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 70
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 71
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 72
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 73
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 74
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 75
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 76
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 77
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 78
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 79
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 80
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 81
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 82
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 83
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 84
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 85
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 86
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 87
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 88
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 89
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 90
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 91
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 92
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 93
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 94
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 95
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 96
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 97
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 98
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 99
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 100
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 101
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 102
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 103
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 104
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 105
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 106
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 107
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 108
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 109
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 110
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 111
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 112
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 113
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 114
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 115
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 116
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 117
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 118
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 119
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 120
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 121
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 122
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 123
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Error: MethodError(match, (r"^Folder (?<number>[0-9]+):(?<description>.*)$", missing), 0x0000000000007f4d)
+│   sheet = Nichols Box 3
+│   row = 124
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:190
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 2
+│   text = Box 5- White Swan
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 3
+│   text = 86-21-244 Photograph of White Swan Time & Location Unkown
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 4
+│   text = 86-21-245 Photograph of naming of White Swan-size 8" x 10"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 5
+│   text = 86-21-246 Photograph of the launch of the White Swan size 8" x 10"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 6
+│   text = 86-21-247 Photograph of White Swan Underway
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 7
+│   text = 86-21-248 Photograph of Schacht Buggy Automobile 1905-1906
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 8
+│   text = 86-21-249 B Negative of Print 86-21-249 Made In 1991
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 9
+│   text = 86-21-250 Photograph of Jack Dempsey and Henry Haldy size 8" x 10"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 10
+│   text = 86-21-251 Photograph of Jack Dempsey and WHN in shop
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 11
+│   text = 86-21-252 Photograph of WHN & the Gerotor 5 League Leaders
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 12
+│   text = 86-21-253 Photograph of Santa Claus
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 13
+│   text = 86-21-254 Photograph of Assembly of Children & Adults Christmas Season (related to 253)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 14
+│   text = 86-21-256 Duplicate Photo of 86-21-255
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 15
+│   text = 86-21-258 Outdoor Photograph of Hart, Mrs. Louise & Arthur Nichols and Unidentified Male
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 16
+│   text = 86-21-258 Mounted Newspaper Clipping Of Sea Scout (folder currently empty)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 17
+│   text = 86-21-258 B Reduced Size Photocopies Of 86-21-258 A (see also 86-21-258 A In Oversize Box)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 18
+│   text = 86-21-259 Photograph Showing Hart Nichols, Mrs. WHN, Arthur Nichols and Unidentified Clergy Man With Portait of WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 19
+│   text = 86-21-260 Photograph Same Site as 86-21-259 Showing, L-R: Thomas, Mrs. Louise, Arthur, & Hart Nichols, Portrait of WHN in Background 8x10"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 20
+│   text = 86-21-261 Group Photograph (see supplement #1 for identification)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 21
+│   text = 86-21-262 Group Photograph at WHN Loading Dock, 1 Women and 20 Men
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 22
+│   text = 86-21-263 Group Photograph Same Site as 262 1 Woman and 39 Men
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 23
+│   text = 86-21-264 Group Photograph Front of WHN Loading Dock, Approximately 100 Individuals Shown in 7 rows
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 24
+│   text = 86-21-265 Group Photograph of Tool Room Dedication 8"x 10"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 25
+│   text = 86-21-266 Group Photograph see 86-21-265
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 26
+│   text = 86-21-267 Group Photograph Breaking Ground For BLDG #6 19 48
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 27
+│   text = 86-21-268 Group Photograph Outdoors Site & Time Undetermined
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 28
+│   text = 86-21-269 Color Photograph 1969 Scout Sunday (In Folder 86-21-366)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 29
+│   text = 86-21-270 Photograph of Chalres River Site & Time Unidentified
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 30
+│   text = 86-21-616 Postcard of The Burgoyne Elm, Waltham 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 31
+│   text = 86-21-272 Photograph of 1941 Chrysler
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 32
+│   text = 86-21-274 Photograph of Paddle Wheel Boat "White Swan" And Moody Street Bridge, Remeoved From Album 86-21-273 Page 53
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 33
+│   text = 86-21-275 Photograph of Model Stem Locomotive, Tender, & Car Removed From Page 53 of Album 86-21-273
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 34
+│   text = 86-21-277 Removed From Album
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 35
+│   text = 86-21-284 Newspaper Clip & Photocopy Of Steam Engine Story 1946, Original Newspaper Clip From 86-21-284
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 36
+│   text = 86-21-285 Obituary For Chart Nichols Published In The Waltham News-Tribute February 28,1966
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 37
+│   text = 86-21-286 Obituaries For W.H. Nichols & David Mann From Product Engineering December 1957
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 38
+│   text = 86-21-287 Drawing of Water Tube Boiler (Stored in Folder Same Catalog Number)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 39
+│   text = 86-21-288 Aerial Photograph December 14,1964 of Burt House & Charities River Caption Label Also Included
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 40
+│   text = 86-21-289 Serial Photograph December 14,1964 of Woerd Ave Boat House And W. H. Nichols Company Caption Label Included
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 41
+│   text = 86-21-291 Photograph of Steamer White Swan & Caption Strip
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 42
+│   text = 86-21-292 Mounted Photograph of Woerd Avenue Boathouse After Porches Had Been Added Photo & Label In Slip Case
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 43
+│   text = 86-21-293 Mounted Photograph of Woerd Avenue Boathouse And Regatta Photo & Caption Label
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 44
+│   text = 86-21-294 Mounted Photograph of Woerd Avenue Boathouse At Regatta June 14, 1908 Photo & Label in Slip Case
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 45
+│   text = 86-21-295 Mounted Photograph of Woerd Avenue Boathouse At Regatta June 14,1908 Photo & Label in Slip Case
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 46
+│   text = 86-21-296 Woerd Avenue Boathouse Regatta August 16,1919 Photo & Label Enclosed
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 47
+│   text = 86-21-297 Mounted Photo of August 16,1919 Regatta Photo & Label Enclosed
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 48
+│   text = 86-21-298 Mounted Photograph of August 16,1919 Regatta Photo & Label Enclosed
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 49
+│   text = 86-21-299 Photograph of Original Woerd Avenue Boat House Built In The Late 1800's
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 50
+│   text = 86-21-300 Ticket to 2nd Annual Ball Of The Waltham Canoe Club 188 (?)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 51
+│   text = 86-21-301 Army-Navy-E 6"x 9" Removed From Scrap Book Cover Sheet
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 52
+│   text = 86-21-302 Army- Navy-E 6"x9" Removed From Scrap- E-Award Presentation November 25,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 53
+│   text = 86-21-303 Letter October 31, 1942 From Undersecretary of War Announcing Forthcoming E-Award
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 54
+│   text = 86-21-304 Letter: W.H. Nichols To Robert Patterson November 7 1942 6"x9"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 55
+│   text = 86-21-305 Announcement Card E-Award
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 56
+│   text = 86-21-306 Newspaper Clippings
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 57
+│   text = 86-21-307 Invitation to E-Award Ceremony November 24, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 58
+│   text = 86-21-308 Army-Navy E-Award Program November 25, 1942 6"x9" 12 Pages Including Covers
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 59
+│   text = 86-21-309 Typed Carbon Copy Of Army-Navy E-Award
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 60
+│   text = 86-21-310 Letter Of Congratulations On E-Award From Roy F. Williams To W.E.N November 5,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 61
+│   text = 86-21-311 Congratulatory Telegrams From Ben Dow & Donald Dolan November 25, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 62
+│   text = 86-21-312 Congratulatory Letter To Employees On E-Award November 11,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 63
+│   text = 86-21-313 Letter From Major HR. Battley, Air Corps To W.H. Nichols & Sons Dated November 3, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 64
+│   text = 86-21-314 List Of Department And Employees No Date
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 65
+│   text = 86-21-316 Letter To W.H.N From Chalres H. Sherwood December 1, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 66
+│   text = 80-21-317 Letter From E.W. Miller FE
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 67
+│   text = 80-21-318 Clip American Mechanist November 26, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 68
+│   text = 80-21-319 Letter From M.L. Draper, Dupont To F. McIntyre Zenith Products On E-Award To WHN November 27, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 69
+│   text = 86-21-320 LetterL.R. Snow Of W.H. Winn's Sons To W.H.N & Sons Att: HA on E-Award December 1, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 70
+│   text = 86-21-321 Letter From H.K. Hallett Pres, Waltham National Bank To WHN & Sons November 30, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 71
+│   text = 86-21-322 Letter Patrick Duane To WHN & Sons November 25, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 72
+│   text = 86-21-323 Letter From F. E. Haker To WHN & Sons E-Award
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 73
+│   text = 86-21-324 Letter From L.D. Miles General Electric To WHN & Sons November 28,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 74
+│   text = 86-21-325 Letter From Joseph Jay (WHN Employee In Armed Force) To WHN & Sons Handwritten & Signed on Letterhead
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 75
+│   text = 86-21-326 Letter From Herbert A. Baker To WHN & Sons Congrats & Regrets On E-Award November 27,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 76
+│   text = 86-21-327 W.U. Telegram From Descom Hoagland To WHN & Sons Dated November 25, 1942, Hoaglund was WHN's Son-In-Law
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 77
+│   text = 86-21-328 Letter From George W. Smith War Production Board. Wash D.D. To WHN & Sons ATTN: Hart N Decenber 4, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 78
+│   text = 86-21-329 Letter From Thomas F Neelon To WHN & Sons, Congrats Dated November 27,1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 79
+│   text = 86-21-330 Letter From Lester Perrweto WHN & Sons November 27, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 80
+│   text = 86-21-331 Letter From Roy F. Williams, Associated Industires Of Mass To WHN November 27, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 81
+│   text = 86-21-332 Letter From John J. Flynn To WHN November 27, 1942 Of Law Firm Flynn & Flynn 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 82
+│   text = 86-21-333 Letter From James W. McQuiston Of Waltham Bleaching And Dye Works To WHN November 27, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 83
+│   text = 86-21-335 Stage Layout For E-Award
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 84
+│   text = 86-21-336 Letter From Oscar F. Falling To WHN & Sons Decline Invite To E-Award Ceremony
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 85
+│   text = 86-21-338 3 Photos 3 1/2" x 5" Showing Plaque Honoring Employees In Armed Forces
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 86
+│   text = 86-21-339 3 Photos 3 1/2" x 5" Showing Plague Stage & Persons At Award Ceremony, One Photo Shows Hart Nichols & R. Larsons
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 87
+│   text = 86-21-340 Two Photographs Showing
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 88
+│   text = 86-21-341 E-Awards Blank Certificate For Individual Employees 9 1/2"x6"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 89
+│   text = 86-21-342 "Our Appreciation" Printed Sheet To WHN 6"x9"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 90
+│   text = 86-21-343 Letter From "Shep" To WHN Dated December 9, 1942 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 91
+│   text = 86-21-344 Letter From A. Douglas Dalton Of Yale & Towne To WHN Type On 8"x 10 1/2" Letterhead & Signed Dated November 25, 1942
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 92
+│   text = 86-21-346 Letter From E. Clifford Paites To WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 93
+│   text = 86-21-347 Letter From John J. Harrington To WHN 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 94
+│   text = 86-21-348 Letter From R.S. Grand To WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 95
+│   text = 86-21-349 Letter From Wernon Mason To WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 96
+│   text = 86-21-350 Letter From W.H. Mill To WHN
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 97
+│   text = 86-21-351 Woerd Avenue Boat House After Fire Folder
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 98
+│   text = 86-21-351 Picture Woerd Ave Boat House After 1969 Fire (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 99
+│   text = 86-21-252 Woerd Ave Boat House After 1969 Fire (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 100
+│   text = 86-21-253 Woerd Ave Boat House After 1969 Fire (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 101
+│   text = 86-21-354 Woerd Ave Boat House After 1969 Fire (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 102
+│   text = 86-21-355 Woerde Ave Boat House After 1969 Fire (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 103
+│   text = 86-21-356 Clipping And Label On Woerd Ave Boat House (In Folder 86-21-351)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 104
+│   text = 86-21-357 Original Clippings And Photocopies Of News Item From News Tribune September 8, 1947 Sea Scout Regatta
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 105
+│   text = Folder 86-21-361-362-363-364-365
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 106
+│   text = 86-21-361 Color Photograph Of Waltham Sea Scouts 25th Anniversary And Caption Label (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 107
+│   text = 86-21-362 Color Photo Sea Scouts 25th Anniversary (In Folder 86-21-361)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 108
+│   text = 86-21-363 Color Photo Sea Scouts 25th Anniversay (In Folder 86-21-361)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 109
+│   text = 86-21-364 Color Photo Sea Scouts 25th Anniversay (In Folder 86-21-361)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 110
+│   text = 86-21-365 Color Photo Sea Scouts 25th Anniversary (In Folder 86-21-361)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 111
+│   text = Folder 86-21-366 to 86-21-370
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 112
+│   text = 86-21-367 BEW Photographs Of NAvy Motor Boat Used By Waltham Sea (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 113
+│   text = 86-21-268 Color Photograph 1969 Scout Sunday Label With Caption (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 114
+│   text = 86-21-270 Color Photograph 1969 Scout Sunday (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 115
+│   text = Folder 86-21-371 to 86-21-375 Sea Scout Activities
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 116
+│   text = 86-21-371 Photograph Of Sea Scout Activities (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 117
+│   text = 86-21-372 Photograph Of Sea Scout Activites (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 118
+│   text = 86-21-373 Photograph Of Sea Scout Activities (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 119
+│   text = 86-21-374 Phtograph Of Sea Scout Activities (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 120
+│   text = 86-21-375 Photographs Of Sea Scout Acitivites (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 121
+│   text = 86-21-376 Photographs Of Racing Shells On Charles River, Waltham (In Folder)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 122
+│   text = 86-21-377 Photograph Of 4-Oar Shell And Power Boat At Dock 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 123
+│   text = 86-21-378 Photograph Of Boating On Charles River In Waltham & Label
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 124
+│   text = 86-21-379 Photographs Of "White Swan" On Boat Carriage
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 5
+│   row = 125
+│   text = 86-21-380 Photograph Of Launch White Swan Under way In Charles River
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 2
+│   text = 86-21 Book Nichols Family
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 3
+│   text = "Nichols Company" Negatives B-4513 to B-4519 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 4
+│   text = Mass Production Precision Methods Book
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 5
+│   text = W .H. Nichols Company Pamphlet
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 6
+│   text = W. H. Nichols Company 1946 book
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 7
+│   text = Picture of Woman Unnamed
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 8
+│   text = Article Nichols "Have You Ever Seen A 'Mechanical Silkworm'?"
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 9
+│   text = Book "The First Seventy-Five Years of W. H. Nichols Company
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 10
+│   text = Parts List Nichols Hand Miller
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 11
+│   text = Envelope- Packing List W. H. Nichols & Sons
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 12
+│   text = 3 W. H. Nichols & Sons Books 1940-1945
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 13
+│   text = Photos- W. H. Nichols Co.
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 14
+│   text = Mcgraw Hill Report & Photo 
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 15
+│   text = Mcgraw Hill Report: Part being machinged-Bronze bushing Halves Material
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 16
+│   text = Bankers Industrial and Professional Men All Are Intruiged by Highly Developed Miller in Plant of W. H. Nichols
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 17
+│   text = Picture Trying to master the "Know How of A Machine Shops
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 18
+│   text = Photos- W. H. Nichols Co., Photos of Nichols Machines (39 pics)
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 19
+│   text = Folder Nichols, W. H. & Sons Photos- Printed Material #1
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 20
+│   text = Photo 1920 factory
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 21
+│   text = METZ Company Photo-Miller, Patrick Morehead, John McGann, Lawrence Cathcart, Everett Kennedy Foreman 1911
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
+┌ Warning: Unrecognized
+│   sheet = Nichols Box 6
+│   row = 22
+│   text = 50th Anniversary- August 7, 1953 Nichols Company Photos In Folder
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:187
