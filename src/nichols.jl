@@ -42,6 +42,8 @@ injestion_log_file(dir) =
 ############################################################
 # CSV file escaping:
 
+rfc4180escape(::Nothing) = ""
+
 function rfc4180escape(str::AbstractString)
     buf = IOBuffer()
     s = split(str, '"')
@@ -140,17 +142,22 @@ end
     # last_doc_id      # infer from first row
     description
     folders = Vector{NicholsFolder}()
+    unfoldered_documents = Vector{NicholsDocument}()
 end
 
 @with_kw mutable struct NicholsFolder
     folder_number
     description
+    extra_rows = Vector{AbstractString}()
     documents = Vector{NicholsDocument}()
 end
 
-struct NicholsDocument
+@with_kw mutable struct NicholsDocument
+    box_number = nothing
+    folder_number = nothing
     id
     title
+    extra_rows = Vector{AbstractString}()
     description
 end
 
@@ -161,33 +168,58 @@ function injest(collection::NicholsCollection)
         m = match(DATA_SHEET_NAME_REGEXP, sheetname)
         box = nothing
         folder = nothing
+        previous_document = nothing
         if m != nothing    
             box_number = m["box_number"]
             sheet = workbook[sheetname]
             for row in eachrow(sheet)
                 try
-                    if row.row == 1
+                    if row[1] isa Missing
+                        continue
+                    elseif row.row == 1
                         box = NicholsBox(box_number = box_number,
                                          description = row[1])
+                        previous_document = nothing
                         push!(collection.boxes,box)
                     elseif box != nothing &&
                         (m = match(r"^Folder (?<number>[0-9]+):(?<description>.*)$",
                                    row[1])) != nothing
                         folder = NicholsFolder(folder_number = m["number"],
                                                description = m["description"])
+                        previous_document = nothing
                         push!(box.folders, folder)
-                    elseif folder != nothing &&
+                    elseif (folder != nothing || box != nothing) &&
                         (m = match(r"^(?<docnum>[0-9]{2}-[0-9]{2}-[0-9]{3})(?<title>.*)$",
                                    row[1])) != nothing
                         id = m["docnum"]
-                        push!(folder.documents,
-                              NicholsDocument(id, m["title"],
-                                              get(DOCUMENT_DESCRIPTIONS, id, nothing)))
+                        previous_document =
+                            NicholsDocument(box_number = box.box_number,
+                                            folder_number = (folder == nothing) ?
+                                                nothing :
+                                                folder.folder_number,
+                                            id = id,
+                                            title = m["title"],
+                                            description = get(DOCUMENT_DESCRIPTIONS, id, nothing))
+                        if folder != nothing
+                            push!(folder.documents, previous_document)
+                        else
+                            push!(box.unfoldered_documents, previous_document)
+                        end
                     else
-                        @warn("Unrecognized", sheet=sheetname, row=row.row, text=row[1])
+                        if previous_document != nothing
+                            push!(previous_document.extra_rows, row[1])
+                        elseif folder != nothing
+                            push!(folder.extra_rows, row[1])
+                        else
+                            @warn("Unrecognized", sheet=sheetname, row=row.row, text=row[1])
+                        end
                     end
                 catch e
-                    @error(e, sheet=sheetname, row=row.row)
+                    if e isa MethodError
+                        rethrow()
+                    else
+                        @error(e, sheet=sheetname, row=row.row)
+                    end
                 end
             end
         end
@@ -199,14 +231,32 @@ function show_counts(collection::NicholsCollection)
     println("Boxes: $(length(collection.boxes))")
     for box in collection.boxes
         println("  Box $(box.box_number)")
+        println("    $(length(box.unfoldered_documents)) unfoldered documents")
         for folder in box.folders
             println("    Folder $(folder.folder_number) $(length(folder.documents)) documents, $(folder.description)")
         end
     end
 end
 
+function write_document_list(collection::NicholsCollection)
+    open(joinpath(collection.directory, "documents.tsv"), "w") do io
+        function writedoc(doc::NicholsDocument)
+            println(io, "$(doc.box_number)\t$(doc.folder_number)\t$(doc.id)\t" *
+                "$(rfc4180escape(doc.title))\t" *
+                "$(rfc4180escape(doc.description))")
+        end
+        for box in collection.boxes
+            map(writedoc, box.unfoldered_documents)
+            for folder in box.folders
+                map(writedoc, folder.documents)
+            end
+        end
+    end
+end
+
 NICHOLS = NicholsCollection()
 
+# Extract data from the spreadsheet:
 open(injestion_log_file(NICHOLS.directory), "w") do logio
     with_logger(SimpleLogger(logio)) do
         injest(NICHOLS)
@@ -214,4 +264,10 @@ open(injestion_log_file(NICHOLS.directory), "w") do logio
 end
 
 show_counts(NICHOLS)
+
+write_document_list(NICHOLS)
+
+function explore(sheet, line)
+    workbook[sheet]["A$(line - 1):A$(line + 1)"]
+end
 
