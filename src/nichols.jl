@@ -3,6 +3,7 @@ using XLSX
 using XLSX: readxlsx, sheetnames, row_number, eachrow
 using Parameters
 using Logging
+using OrderedCollections: OrderedSet
 
 ############################################################
 # Input and Output Data Files
@@ -147,6 +148,7 @@ end
 
 @with_kw mutable struct NicholsFolder
     folder_number
+    row_number
     description
     extra_rows = Vector{AbstractString}()
     documents = Vector{NicholsDocument}()
@@ -155,11 +157,29 @@ end
 @with_kw mutable struct NicholsDocument
     box_number = nothing
     folder_number = nothing
+    row_number    = row in sheet
     id
     title
     extra_rows = Vector{AbstractString}()
     description
 end
+
+function NicholsDocument(box::NicholsBox,
+                         folder::Union{Nothing, NicholsFolder},
+                         row_number, 
+                         id::AbstractString, title::AbstractString)
+    NicholsDocument(box_number = box.box_number,
+                    folder_number = (folder == nothing) ?
+                        nothing :
+                        folder.folder_number,
+                    row_number = row_number,
+                    id = id,
+                    title = title,
+                    description = get(DOCUMENT_DESCRIPTIONS, id, nothing))
+end
+
+FOLDER_ROW_REGEXP = r"^Folder (?<number>[0-9]+):(?<description>.*)$"
+DOCUMENT_ROW_REGEXP = r"^(?<docnum>[0-9]{2}-[0-9]{2}-[0-9]{3})(?<title>.*)$"
 
 function injest(collection::NicholsCollection)
     workbook = readxlsx(joinpath(collection.directory,
@@ -182,24 +202,16 @@ function injest(collection::NicholsCollection)
                         previous_document = nothing
                         push!(collection.boxes,box)
                     elseif box != nothing &&
-                        (m = match(r"^Folder (?<number>[0-9]+):(?<description>.*)$",
-                                   row[1])) != nothing
+                        (m = match(FOLDER_ROW_REGEXP, row[1])) != nothing
                         folder = NicholsFolder(folder_number = m["number"],
+                                               row_number = row.row,
                                                description = m["description"])
                         previous_document = nothing
                         push!(box.folders, folder)
                     elseif (folder != nothing || box != nothing) &&
-                        (m = match(r"^(?<docnum>[0-9]{2}-[0-9]{2}-[0-9]{3})(?<title>.*)$",
-                                   row[1])) != nothing
+                        (m = match(DOCUMENT_ROW_REGEXP, row[1])) != nothing
                         id = m["docnum"]
-                        previous_document =
-                            NicholsDocument(box_number = box.box_number,
-                                            folder_number = (folder == nothing) ?
-                                                nothing :
-                                                folder.folder_number,
-                                            id = id,
-                                            title = m["title"],
-                                            description = get(DOCUMENT_DESCRIPTIONS, id, nothing))
+                        previous_document = NicholsDocument(box, folder, row.row, id, m["title"])
                         if folder != nothing
                             push!(folder.documents, previous_document)
                         else
@@ -227,6 +239,49 @@ function injest(collection::NicholsCollection)
     return collection
 end
 
+function post_injestion_cleanup(collection::NicholsCollection)
+    # Some folder rows were not followed by document rows but the
+    # folder's "title" looks like a document row.  For such cases,
+    # create the document and add it to the follder.
+    for box in collection.boxes
+        for folder in box.folders
+            if length(folder.documents) == 0
+                m = match(DOCUMENT_ROW_REGEXP, strip(folder.description))
+                if m != nothing
+                    push!(folder.documents,
+                          NicholsDocument(box, folder, folder.row_number,
+                                          m["docnum"], m["title"]))
+                end
+            end
+        end
+    end
+end
+
+function write_unmatched_docuemnts_and_descriptions(collection::NicholsCollection)
+    collected_documents = OrderedSet{String}()
+    collect_doc_ids(docs) =
+        for doc in docs
+            push!(collected_documents, doc.id)
+        end
+    for box in collection.boxes
+        collect_doc_ids(box.unfoldered_documents)
+        for folder in box.folders
+            collect_doc_ids(folder.documents)
+        end
+    end
+    function write_set(filename, set)
+        open(joinpath(collection.directory, filename), "w") do io
+            write(io, join(set, "\n"))
+        end
+    end
+    write_set("docs_without_descs.txt",
+              setdiff(collected_documents,
+                      keys(DOCUMENT_DESCRIPTIONS)))
+    write_set("descs_without_docs.txt",
+              setdiff(keys(DOCUMENT_DESCRIPTIONS),
+                      collected_documents))
+end
+
 function show_counts(collection::NicholsCollection)
     println("Boxes: $(length(collection.boxes))")
     for box in collection.boxes
@@ -238,12 +293,20 @@ function show_counts(collection::NicholsCollection)
     end
 end
 
+DOCUMENTS_TSV_HEADINGS = ["box #", "folder #", "row #", "title", "description"]
+
 function write_document_list(collection::NicholsCollection)
-    open(joinpath(collection.directory, "documents.tsv"), "w") do io
+    open(joinpath(collection.directory, "documents2.tsv"), "w") do io
+        println(io, join(DOCUMENTS_TSV_HEADINGS, "\t"))
         function writedoc(doc::NicholsDocument)
-            println(io, "$(doc.box_number)\t$(doc.folder_number)\t$(doc.id)\t" *
-                "$(rfc4180escape(doc.title))\t" *
-                "$(rfc4180escape(doc.description))")
+            println(io, join([
+                "$(doc.box_number)",
+                "$(doc.folder_number)",
+                "$(doc.row_number)",
+                "$(doc.id)",
+                "$(rfc4180escape(doc.title))",
+                "$(rfc4180escape(doc.description))"
+                ], "\t"))
         end
         for box in collection.boxes
             map(writedoc, box.unfoldered_documents)
@@ -262,6 +325,10 @@ open(injestion_log_file(NICHOLS.directory), "w") do logio
         injest(NICHOLS)
     end
 end
+
+post_injestion_cleanup(NICHOLS)
+
+write_unmatched_docuemnts_and_descriptions(NICHOLS)
 
 show_counts(NICHOLS)
 
