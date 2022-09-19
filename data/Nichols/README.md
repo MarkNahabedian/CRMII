@@ -19,7 +19,7 @@ the finding aid.  It produces these files
   associates a document ID (column 1) with its description from the
   finding aid (column 2).
 
-# During processing of the <tt>Nichols Part _.txt</tt> files, any
+* During processing of the <tt>Nichols Part _.txt</tt> files, any
   input lines that could not be processed are written to
   <tt>injestion_log.txt</tt>.
 
