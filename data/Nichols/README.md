@@ -1,5 +1,5 @@
 These data files decribe documents in the Charles River Museum of
-Indistry and Innovation's Nichols Collection.
+Industry and Innovation's Nichols Collection.
 
 <tt>Nichols Collection Contents Copy.xlsx</tt> is an Excel spreadsheet
 whose sheets list the documents in the collection organized by box and
@@ -32,9 +32,9 @@ the finding aid.  It produces these files
 * The program generated some warnings during the processing of the
   spreadsheet.  These warnings are written to <tt>injestion_log.txt</tt>.
 
-* Thpically due to data entry errors, there are some document IDs in
+* Typically due to data entry errors, there are some document IDs in
   the spreadsheet that don't match document IDs in the finding aid,
-  and vice versa.  The document ids that are present in oune source
-  but not the other arelisted in <tt>descs_without_docs.txt</tt> and
+  and vice versa.  The document ids that are present in one source
+  but not the other are listed in <tt>descs_without_docs.txt</tt> and
   <tt>docs_without_descs.txt</tt>.
 
