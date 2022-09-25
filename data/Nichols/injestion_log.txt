@@ -1,110 +1,188 @@
+┌ Warning: Duplicate key
+│   id = 86-21-464
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-465
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-466
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-467
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-468
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 82-21-565
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-573
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-574
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-575
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-590
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-591
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-177
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-177
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-150
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-109
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-286
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-594
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 5
 │   row = 2
 │   text = Box 5- White Swan
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
+┌ Warning: Duplicate key
+│   id = 86-21-258
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-258
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-616
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-286
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-351
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-252
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-253
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-268
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
+┌ Warning: Duplicate key
+│   id = 86-21-270
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:186
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 2
 │   text = 86-21 Book Nichols Family
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 3
 │   text = "Nichols Company" Negatives B-4513 to B-4519 
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 4
 │   text = Mass Production Precision Methods Book
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 5
 │   text = W .H. Nichols Company Pamphlet
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 6
 │   text = W. H. Nichols Company 1946 book
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 7
 │   text = Picture of Woman Unnamed
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 8
 │   text = Article Nichols "Have You Ever Seen A 'Mechanical Silkworm'?"
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 9
 │   text = Book "The First Seventy-Five Years of W. H. Nichols Company
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 10
 │   text = Parts List Nichols Hand Miller
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 11
 │   text = Envelope- Packing List W. H. Nichols & Sons
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 12
 │   text = 3 W. H. Nichols & Sons Books 1940-1945
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 13
 │   text = Photos- W. H. Nichols Co.
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 14
 │   text = Mcgraw Hill Report & Photo 
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 15
 │   text = Mcgraw Hill Report: Part being machinged-Bronze bushing Halves Material
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 16
 │   text = Bankers Industrial and Professional Men All Are Intruiged by Highly Developed Miller in Plant of W. H. Nichols
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 17
 │   text = Picture Trying to master the "Know How of A Machine Shops
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 18
 │   text = Photos- W. H. Nichols Co., Photos of Nichols Machines (39 pics)
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 19
 │   text = Folder Nichols, W. H. & Sons Photos- Printed Material #1
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 20
 │   text = Photo 1920 factory
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 21
 │   text = METZ Company Photo-Miller, Patrick Morehead, John McGann, Lawrence Cathcart, Everett Kennedy Foreman 1911
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238
 ┌ Warning: Unrecognized
 │   sheet = Nichols Box 6
 │   row = 22
 │   text = 50th Anniversary- August 7, 1953 Nichols Company Photos In Folder
-└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:226
+└ @ Main c:\Users\Mark Nahabedian\.julia\dev\CRMII\src\nichols.jl:238

@@ -1,9 +1,10 @@
 
 using XLSX
 using XLSX: readxlsx, sheetnames, row_number, eachrow
+using DataStructures
 using Parameters
 using Logging
-using OrderedCollections: OrderedSet
+using OrderedCollections: OrderedDict, Forward
 
 ############################################################
 # Input and Output Data Files
@@ -38,6 +39,9 @@ end
 
 injestion_log_file(dir) =
     abspath(joinpath(dir, "injestion_log.txt"))
+
+id_index_path(dir) =
+    abspath(joinpath(dir, "id_index.tsv"))
 
 
 ############################################################
@@ -134,6 +138,7 @@ DATA_SHEET_NAME_REGEXP = r"Nichols Box (?<box_number>[0-9]+)"
 @with_kw mutable struct NicholsCollection
     directory = NICHOLS_DIR
     boxes = Vector{NicholsBox}()
+    id_index = SortedDict(Forward)  # document id -> NicholsDocument
 end
 
 # Each sheet that matches DATA_SHEET_NAME_REGEXP describes one box
@@ -157,25 +162,32 @@ end
 @with_kw mutable struct NicholsDocument
     box_number = nothing
     folder_number = nothing
-    row_number    = row in sheet
+    row_number    # row in sheet
     id
     title
     extra_rows = Vector{AbstractString}()
     description
 end
 
-function NicholsDocument(box::NicholsBox,
+function NicholsDocument(collection::NicholsCollection,
+                         box::NicholsBox,
                          folder::Union{Nothing, NicholsFolder},
                          row_number, 
                          id::AbstractString, title::AbstractString)
-    NicholsDocument(box_number = box.box_number,
-                    folder_number = (folder == nothing) ?
-                        nothing :
-                        folder.folder_number,
-                    row_number = row_number,
-                    id = id,
-                    title = title,
-                    description = get(DOCUMENT_DESCRIPTIONS, id, nothing))
+    d = NicholsDocument(box_number = box.box_number,
+                        folder_number = (folder == nothing) ?
+                            nothing :
+                            folder.folder_number,
+                        row_number = row_number,
+                        id = id,
+                        title = title,
+                        description = get(DOCUMENT_DESCRIPTIONS, id, nothing))
+    if haskey(collection.id_index, d.id)
+        @warn "Duplicate key" id=d.id
+    else
+        collection.id_index[d.id] = d
+    end
+    d
 end
 
 FOLDER_ROW_REGEXP = r"^Folder (?<number>[0-9]+):(?<description>.*)$"
@@ -211,7 +223,7 @@ function injest(collection::NicholsCollection)
                     elseif (folder != nothing || box != nothing) &&
                         (m = match(DOCUMENT_ROW_REGEXP, row[1])) != nothing
                         id = m["docnum"]
-                        previous_document = NicholsDocument(box, folder, row.row, id, m["title"])
+                        previous_document = NicholsDocument(collection, box, folder, row.row, id, m["title"])
                         if folder != nothing
                             push!(folder.documents, previous_document)
                         else
@@ -249,10 +261,25 @@ function post_injestion_cleanup(collection::NicholsCollection)
                 m = match(DOCUMENT_ROW_REGEXP, strip(folder.description))
                 if m != nothing
                     push!(folder.documents,
-                          NicholsDocument(box, folder, folder.row_number,
+                          NicholsDocument(collection, box, folder, folder.row_number,
                                           m["docnum"], m["title"]))
                 end
             end
+        end
+    end
+end
+
+function add_description_only_documents(collection::NicholsCollection)
+    # For each element of DOCUMENT_DESCRIPTIONS for which we don't
+    # have a document, add that description to the index.
+    for (id, description) in DOCUMENT_DESCRIPTIONS
+        if !haskey(collection.id_index, id)
+            collection.id_index[id] =
+                NicholsDocument(;
+                                id = id,
+                                row_number = -1,
+                                title = nothing,
+                                description = description)
         end
     end
 end
@@ -293,7 +320,7 @@ function show_counts(collection::NicholsCollection)
     end
 end
 
-DOCUMENTS_TSV_HEADINGS = ["box #", "folder #", "row #", "title", "description"]
+DOCUMENTS_TSV_HEADINGS = ["box #", "folder #", "row #", "id", "title", "description"]
 
 function write_document_list(collection::NicholsCollection)
     open(joinpath(collection.directory, "documents2.tsv"), "w") do io
@@ -317,6 +344,23 @@ function write_document_list(collection::NicholsCollection)
     end
 end
 
+
+ITEM_NUMBER_INDEX_HEADERS = [ "catalog #", "has title", "has description" ]
+
+function write_item_number_index(collection::NicholsCollection)
+    open(id_index_path(collection.directory), "w") do io
+        println(io, join(ITEM_NUMBER_INDEX_HEADERS, "\t"))
+        for (id, doc) in collection.id_index
+            println(io, join([
+                id,
+                (doc.title != nothing) ? "✓" : "",
+                (doc.description != nothing) ? "✓" : ""
+            ], "\t"))
+        end
+    end
+end
+
+
 NICHOLS = NicholsCollection()
 
 # Extract data from the spreadsheet:
@@ -328,11 +372,15 @@ end
 
 post_injestion_cleanup(NICHOLS)
 
+add_description_only_documents(NICHOLS)
+
 write_unmatched_docuemnts_and_descriptions(NICHOLS)
 
 show_counts(NICHOLS)
 
 write_document_list(NICHOLS)
+
+write_item_number_index(NICHOLS)
 
 function explore(sheet, line)
     workbook[sheet]["A$(line - 1):A$(line + 1)"]
