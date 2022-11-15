@@ -15,6 +15,11 @@ begin
     using Findpeaks        # https://github.com/tungli/Findpeaks.jl
 end
 
+# ╔═╡ d74de535-0dd3-4f9c-9bdd-76fcaf274899
+md"""
+# Checking the Timing of the Tower Clock
+"""
+
 # ╔═╡ 39175e25-03d9-4d2b-b7c9-59e5403f1aac
 # Arduino Science Journal seems to express timestamps as milliseconds
 # since the UNIX epoch:
@@ -33,6 +38,13 @@ select(data::TickTockData, column::Symbol) =
     map(data) do t
         getfield(t, column)
     end
+
+# ╔═╡ 171767c8-08ae-448c-9be6-45581adcc760
+md"""
+## The Raw Data
+
+The *Arduino Science Journal* Android app was used to record the sound of the escapement ticking.
+"""
 
 # ╔═╡ 0e65a396-a127-479f-b33b-5d2debbedcd3
 begin
@@ -79,6 +91,9 @@ function show_stats(column, description)
     println("  std:  \t $(s.standard_deviation)")
 end
 
+# ╔═╡ eaf9971e-62ab-4e5d-ae9b-d984a7dabc5a
+
+
 # ╔═╡ 7215dc8b-2016-4aa0-91d0-317c1ea6387d
 let
     show_stats(map(x -> x.value,
@@ -92,6 +107,15 @@ end
 # ╔═╡ b0336397-f7d5-4e03-9238-2461b78ad4a5
 plot(select(DATA, :timestamp), select(DATA, :sound), lw=3)
 
+# ╔═╡ 2f8cf74d-061d-4631-b63a-e5dea3087d01
+md"""
+## After Gaussian Filtering
+
+The raw data was too noisy to work with so I tried Gaussian filtering.
+
+This looks a lot better.
+"""
+
 # ╔═╡ 7b03cbfd-e1b0-48d4-82b5-5d18ead403a3
 FILTERED_SOUND = let
 	# What if we apply a Gaussian filter?
@@ -102,6 +126,13 @@ end
 
 # ╔═╡ f305b71d-9c43-4965-a28a-8136b8374970
 plot(select(DATA, :timestamp), FILTERED_SOUND, lw=3)
+
+# ╔═╡ 7910f156-9e36-4e36-9d8a-bd2c08570b96
+md"""
+## Peaks
+
+The peaks should mark the escapement ticks from the swinging of the pendulum.
+"""
 
 # ╔═╡ 0e93cd51-0d82-4279-9a0e-ca2d34aeaea7
 # Find peaks
@@ -118,6 +149,40 @@ TIME_INTERVALS = let
 	l = length(PEAK_TIMESTAMPS)
 	PEAK_TIMESTAMPS[2:l] - PEAK_TIMESTAMPS[1:(l-1)]
 end
+
+# ╔═╡ 460c42a9-c76b-4e40-80ce-fcc314220921
+md"""
+In the plot below the verticl lines identify the timestamps of the detected peaks, superimposed over the Gaussian filtered data.
+"""
+
+# ╔═╡ 6cae4fe8-cece-4a12-815c-5f36a5d1a597
+# What if we ship the first 20-25% of  the graph?  I think Arduino Science
+# Journal might have been auto-ranging during that time.
+
+# It would be nice to see a plot with vertical bars or some such at the
+# PEAK_TIMESTAMPS marks so we can see thgose against the filtered graph.
+
+begin
+	plot(select(DATA, :timestamp), FILTERED_SOUND, lw=3)
+	vline!(PEAK_TIMESTAMPS)
+end
+
+# ╔═╡ e6a72c80-b72a-4610-b54d-c89275c00837
+md"""
+The above graph shows that the the timestamps that we derived from peak detection pretty much correspond with the peaks we see in the graph.
+"""
+
+# ╔═╡ fb260725-0823-43c1-817c-092bd025554d
+md"""
+The plot below shows mostly alternating long and short pendulum swings, but with widely erratic time intervals.
+
+There are three peaks that also show a spurious secondary peak.  I think this shows 8 **ticks** and 8 **tocks**.
+
+The X axis is just the index into the list of peaks.  The Y axis is the time interval between successive peaks.
+"""
+
+# ╔═╡ b0afe846-8ceb-467a-a090-d59ddd902c3a
+plot(1:length(TIME_INTERVALS), TIME_INTERVALS, lw=3)
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1359,17 +1424,27 @@ version = "1.4.1+0"
 
 # ╔═╡ Cell order:
 # ╠═50d3c410-6445-11ed-25d6-09ece3ccacf4
+# ╟─d74de535-0dd3-4f9c-9bdd-76fcaf274899
 # ╠═39175e25-03d9-4d2b-b7c9-59e5403f1aac
 # ╠═1e8ea2a6-ec63-402c-92e0-0f8632059e0f
 # ╠═4eff9f1b-16bb-4169-8ab7-7ca80231d070
+# ╟─171767c8-08ae-448c-9be6-45581adcc760
 # ╠═0e65a396-a127-479f-b33b-5d2debbedcd3
 # ╠═7407845a-2668-4aa0-bc5d-af07a90c72f0
 # ╠═121e44cd-76c8-4184-916a-c8ff61a7f418
+# ╠═eaf9971e-62ab-4e5d-ae9b-d984a7dabc5a
 # ╠═7215dc8b-2016-4aa0-91d0-317c1ea6387d
 # ╠═b0336397-f7d5-4e03-9238-2461b78ad4a5
+# ╟─2f8cf74d-061d-4631-b63a-e5dea3087d01
 # ╠═7b03cbfd-e1b0-48d4-82b5-5d18ead403a3
 # ╠═f305b71d-9c43-4965-a28a-8136b8374970
+# ╟─7910f156-9e36-4e36-9d8a-bd2c08570b96
 # ╠═0e93cd51-0d82-4279-9a0e-ca2d34aeaea7
 # ╠═7e579f77-166e-4148-9c96-2712edd83a0b
+# ╟─460c42a9-c76b-4e40-80ce-fcc314220921
+# ╠═6cae4fe8-cece-4a12-815c-5f36a5d1a597
+# ╟─e6a72c80-b72a-4610-b54d-c89275c00837
+# ╟─fb260725-0823-43c1-817c-092bd025554d
+# ╠═b0afe846-8ceb-467a-a090-d59ddd902c3a
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
