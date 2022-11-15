@@ -182,7 +182,19 @@ The X axis is just the index into the list of peaks.  The Y axis is the time int
 """
 
 # ╔═╡ b0afe846-8ceb-467a-a090-d59ddd902c3a
-plot(1:length(TIME_INTERVALS), TIME_INTERVALS, lw=3)
+begin
+	scatter(1:length(TIME_INTERVALS), TIME_INTERVALS, lw=3)
+	plot!(1:length(TIME_INTERVALS), TIME_INTERVALS, lw=3)
+	vline!([2, 28])
+end
+
+# ╔═╡ 6221cf16-20a9-4db9-83a8-e9d4a0f339e2
+md"""
+Milliseconds per tick tock:
+"""
+
+# ╔═╡ 8571303e-5ee4-49b2-8cae-b2a46417ab12
+(PEAK_TIMESTAMPS[29] - PEAK_TIMESTAMPS[3]).value / 16
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1446,5 +1458,7 @@ version = "1.4.1+0"
 # ╟─e6a72c80-b72a-4610-b54d-c89275c00837
 # ╟─fb260725-0823-43c1-817c-092bd025554d
 # ╠═b0afe846-8ceb-467a-a090-d59ddd902c3a
+# ╠═6221cf16-20a9-4db9-83a8-e9d4a0f339e2
+# ╠═8571303e-5ee4-49b2-8cae-b2a46417ab12
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
