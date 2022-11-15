@@ -152,7 +152,9 @@ end
 
 # ╔═╡ 460c42a9-c76b-4e40-80ce-fcc314220921
 md"""
-In the plot below the verticl lines identify the timestamps of the detected peaks, superimposed over the Gaussian filtered data.
+In the plot below the vertical lines identify the timestamps of the detected peaks, superimposed over the Gaussian filtered data.
+
+some of the peaks appear to be due to noise and should be ignored.
 """
 
 # ╔═╡ 6cae4fe8-cece-4a12-815c-5f36a5d1a597
@@ -179,6 +181,10 @@ The plot below shows mostly alternating long and short pendulum swings, but with
 There are three peaks that also show a spurious secondary peak.  I think this shows 8 **ticks** and 8 **tocks**.
 
 The X axis is just the index into the list of peaks.  The Y axis is the time interval between successive peaks.
+
+This interpretation visualization assumes that the swing of the pendulum in one direction (the **ticks**) is of longer duration than that in the other direction (the **tocks**).  if the swing of the pendulum were even then all of the dots would be on the same flat line.
+
+Maybe this graph is misleading because the X axis represents indices into the data.  Maybe those should be back-transloated into timestamps.
 """
 
 # ╔═╡ b0afe846-8ceb-467a-a090-d59ddd902c3a
@@ -191,6 +197,11 @@ end
 # ╔═╡ 6221cf16-20a9-4db9-83a8-e9d4a0f339e2
 md"""
 Milliseconds per tick tock:
+"""
+
+# ╔═╡ 7d366c99-21b9-4d36-8854-0ff0b057831a
+md"""
+Average period:
 """
 
 # ╔═╡ 8571303e-5ee4-49b2-8cae-b2a46417ab12
@@ -210,6 +221,7 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 [compat]
 CSV = "~0.10.7"
 Distributions = "~0.25.77"
+Findpeaks = "~0.1.0"
 ImageFiltering = "~0.7.2"
 Plots = "~1.36.1"
 """
@@ -220,7 +232,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.0"
 manifest_format = "2.0"
-project_hash = "48b5f060ac3e13fb1fc78dc977f96b8aa6e0d41f"
+project_hash = "7d1315e4718be533ed0d19d23863446274f7d881"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -1456,9 +1468,10 @@ version = "1.4.1+0"
 # ╟─460c42a9-c76b-4e40-80ce-fcc314220921
 # ╠═6cae4fe8-cece-4a12-815c-5f36a5d1a597
 # ╟─e6a72c80-b72a-4610-b54d-c89275c00837
-# ╟─fb260725-0823-43c1-817c-092bd025554d
+# ╠═fb260725-0823-43c1-817c-092bd025554d
 # ╠═b0afe846-8ceb-467a-a090-d59ddd902c3a
 # ╠═6221cf16-20a9-4db9-83a8-e9d4a0f339e2
+# ╟─7d366c99-21b9-4d36-8854-0ff0b057831a
 # ╠═8571303e-5ee4-49b2-8cae-b2a46417ab12
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
