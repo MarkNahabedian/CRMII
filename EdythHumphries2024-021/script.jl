@@ -167,8 +167,8 @@ let
         end
     end
     tbl = Tables.table(stack(results; dims=1))
-    println(length(results), "\t", length(Tables.rows(tbl)))
-    CSV.write(joinpath(@__DIR__, "proficio_import.csv"),
+    # println(length(results), "\t", length(Tables.rows(tbl)))
+    CSV.write(joinpath(@__DIR__, "Humphries_2024_021_proficio_import.csv"),
               tbl;
               header = proficio_headings())
 end
